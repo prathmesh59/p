@@ -1,0 +1,44 @@
+Scala's name implies that it is a scalable programming language.These days we widely use Scala in Data Science and Machine Learning fields. Scala is a small,  fast, and efficient multi-paradigm programming language built on a compiler.
+Apache Spark is a powerful open-source cluster computing framework that is widely used in big data processing and analytics.Apache Spark provides libraries and APIs that support machine learning tasks, making it a popular choice for large-scale machine learning applications.
+
+
+terminal commands:-
+
+1 java --version
+
+  for intalling java = sudo apt-get install default-jdk -y
+
+2 sudo apt search scala ⇒ Search for the package
+3 sudo apt install scala ⇒ Install the package
+
+4 scala -version
+
+5 apt-get install wget https://apachemirror.wuchna.com/spark/spark-3.2.1/spark-3.2.1-bin-hadoop2.7.tgz
+
+5 create spark folder in home directory 
+
+6 on terminal - cd spark/
+
+7 tar -xvzf spark-3.1.1-bin-hadoop2.7.tgz -  Extract the Apache Spark tar file in spark and install
+
+8 gedit -/.bashrc 
+
+
+
+
+MAIN COMMANDS --
+
+1 change the directory to our given program - cd Desktop/
+
+2 spark-shell
+
+3 :load program.scala
+
+4 Sample.main(Array())
+
+
+Another Command
+
+scalac sh.scala
+scala hello1
+

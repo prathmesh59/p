@@ -1,0 +1,15 @@
+object sample
+	def main(args:Array[String]){
+		var num:Int=0;
+	
+		print("Enter Number");
+		num=scala.io.StdIn.readInt()
+
+		if(num>=0)
+			println(num,"Number is POSITIVE")
+		else 
+			println(num, "Number is NEGATIVE")
+	}
+}
+
+

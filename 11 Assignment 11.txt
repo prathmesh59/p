@@ -1,0 +1,35 @@
+1 hadoop version
+
+2 javac -version
+
+3 crate a folder input_data and text file name as input in this folder
+
+4 Add name in separate lines in input.txt
+
+5 crate a new folder tutorial_classes
+
+6 terminal - export HADOOP_CLASSPATH=$(hadoop classpath)
+
+7 terminal - echo $HADOOP_CLASSPATH     (for it has been set correctly)
+
+8 Create a directory on HDFS 
+  terminal = hadoop fs -mkdir <DIRECTORY_NAME> 
+		 hadoop fs -mkdir /WordCountTutorial
+
+9 hadoop fs -mkdir /WordCountTutorial/Input
+
+Goto localhost:50070
+
+10 hadoop fs -put ' input.txt cha address'/WordCountTutorial/Input
+
+11 cd /home/sheeha/Desktop/WordCountTutorial
+
+12 clear
+
+13 javac -classpath ${HADOOP_CLASSPATH} -d 'tutorial class folder address' 'word count java folder address'
+
+14 jar -cvf firstTutorial.jar -C tutorial_classes/ .
+
+15 hadoop jar 'jar files cha address' (wordcount folder madhil class che naav) /WordCountTutorial/Input/WordCountTutorial/Output
+
+16 hadoop dfs -cat /WordCountTutorial/Output/*
